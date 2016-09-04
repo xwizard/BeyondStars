@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Star Voyager flight manual</title>
+	</head>	
+	<body>
+		<center><b>Star Voyager flight manual</b>&nbsp;(version 0.4.4)</center><br><br>
+		<ul>
+			<li><a href="#starting">Starting a game</a></li>
+			<li><a href="#layout">Screen layout</a></li>
+			<li><a href="#controlling">Controlling your vessel</a></li>
+			<li><a href="#targetting">Targetting other objects</a></li>
+			<li><a href="#weapons">Weapons</a></li>
+			<li><a href="#shields">Shields</a></li>
+			<li><a href="#fuel">Fuel</a></li>
+			<li><a href="#credits">Credits</a></li>
+			<li><a href="#save">Saving and restoring the game</a></li>
+			<li><a href="#commandline">Command line options</a></li>
+			<li><a href="#network">Network play</a></li>
+			<li><a href="#quickref">Controls quick reference</a></li>
+		</ul>
+		<hr>
+		<a name="starting"></a>
+		<i>Starting a game</i><br>
+		&nbsp;Upon running Star Voyager, the game can be started by pressing '1' as prompted by the panel on the right-hand side of the screen. This is where a lot of important information will be displayed; pay attention. Should all go well, you will be prompted to choose a name for your player; do so and press return. If this player name hasn't been used in previous games, you will then be presented with a list of alliances available to play as. Again, this is a numeric selection. And with that, you're in the game. Once in the game, it is recommended to choose a password for your new player as prompted. You will only require this password should you connect to the game remotely, but if a password isn't set this player will not be preserved.<br><br>
+		<a name="layout"></a>
+		<i>The screen layout</i><br>
+		&nbsp;The main part of the screen, all but the panels on the right hand side is the centre of the action. Usually this will be centred around the starship you are currently controlling, and show you space in the immediate vicinity. Any planet or vessel you are currently targetting will be clearly bracketed with red pointers. This main viewer can be set at different zoom levels with the &quot;/&quot; key<br>
+		&nbsp;On the top-right of the screen is the sensor display, which can be zoomed in or out all the way to the bounds of the gameplay universe with the &quot;-&quot; and &quot;+&quot;. Your sensor range will be clearly marked with a blue box; the only objects visible outside of it on sensors are stellar. All objects in motion will have their vector clearly displayer. Any targetted object is clearly hilighted, and a minimal description can be found in the bottom-left corner. Displayed at the top of the sensor screen are your current co-ordinates and velocity.<br><br>
+		<center>
+			Radar colour key:<br>
+			<table border=0>
+				<tr>
+					<td><font color="green">Green</font></td><td>Large object, stellar or planetary</td>
+				</tr>
+				<tr>
+					<td><font color="white">White</font></td><td>Friendly vessel</td>	
+				</tr>
+				<tr>
+					<td><font color="red">Red</font></td><td>Hostile vessel</td>
+				</tr>
+				<tr>
+					<td><font color="blue">Blue</font></td><td>Small object, such as debris or weapons fire</td>
+				</tr>
+			</table>
+		</center><br><br>
+		&nbsp;To the right of the sensor display are bar indicators concerning your ship's vital signs. From left to right; shields, energy, hull strength and fuel level.<br>
+		&nbsp;One of the most important functions, access to the ship's computer, is located in the bottom-right panel; from there, ship status and scanners can be queried, as well as handling onboard systems such as shields and cloaking. Interaction is handled numerically, as in the startup screen. The computer can be switched into different modes using the F keys.<br>
+		&nbsp;Whenever you are prompted for text to input, the input area beneath the console will be hilighted; certain controls will obviously be disabled in the game, those that are bound to alphanumeric keys.<br><br>
+		<a name="controlling"></a>
+		<i>Controlling your vessel</i><br>
+		&nbsp;Acceleration and turning are handled using the cursor keys. Performance will of course vary from vessel to vessel. Handling at warp speed is similar, except that the acceleration magnitudes are considerably higher. Shifting into warp speed is accomplished through holding down the <tt>Shift</tt> key while accelerating beyond your maximum sublight velocity. Dropping out of warp also requires the <tt>Shift</tt> modifier. Reverse thrust is achieved by attempting to reduce speed whilst stopped, with the <tt>Shift</tt> key held down also.<br><br>
+		<a name="targetting"></a>
+		<i>Targetting</i><br>
+		&nbsp;Changing your current target to another planet or ship serves several purposes. Detailed scans can be viewed on a target, and the targetting pointer on the main viewer also aids navigation. For targetted ships there is also another purpose; combat.<br>
+		&nbsp;All targetting is done only objects within the scope of the sensor display; zooming in or out can facilitate things as appropriate. The &quot;t&quot; key will cycle through vessels, while &quot;p&quot; cycles through stellar objects. &quot;e&quot; is equivalent to &quot;t&quot;, except only upon hostile vessels. Holding down <tt>Shift</tt> for any of these reverses the cycling.
+		<br><br>
+		<a name="weapons"></a>
+		<i>Weapons</i><br>
+		&nbsp;Keeping the space bar depressed will fire your energy weapons, usually phasers or disruptors, aiming at the selected target if possible. Tapping 'z' will shoot off one projectile weapon, almost always a torpedo, at the target if it is in range (and angular coverage of any launchers).<br><br>
+		<a name="shields"></a>
+		<i>Shields</i><br>
+		&nbsp;These can be toggled on or off from the internal systems mode of the ships computer. Be aware that leaving shields on drains energy, and also inhibits any transporter activity.<br><br>
+		<a name="fuel"></a>
+		<i>Fuel</i><br>
+		&nbsp;Keeping an eye on your fuel level is important; once it drops to zero you can no longer generate power for maneuvering, shields and weapons. Then you're as good as dead. Hailing inhabited planets to see if they'll sell you fuel (among other things) when you run low would be a good idea.<br><br>
+		<a name="credits"></a>
+		<i>Credits</i><br>
+		&nbsp;Credits are your currency in the universe of Star Voyager. Without them you can't buy fuel, ammunition and equipment from inhabited planets. Currently, credits can only be earnt through combat; destruction of a (enemy) vessel will net you some amount that you will be prompted with. Contract missions may be in future releases.<br><br>
+		<a name="save"></a>
+		<i>Saving the game</i><br>
+		&nbsp;Although the state of the universe is continually saved, the state of your player's ship is only saved when you can beam down to a planet in your own allegiance (hail an inhabited planet for this option). <i>You must remember to set a password for your game first time round; you will be prompted to do so when you login (on the side computer panel).</i><br><br>
+		<a name="commandline"></a>
+		<i>Command line options</i><br>
+		&nbsp;For running Star Voyager with different options from the command line, run sv with the '-h' switch for more information.<br><br>
+		<a name="network"></a>
+		<i>Multiplayer</i><br>
+		&nbsp;After setting up a Star Voyager server (use command line options, see above), up to 32 players can connect to it and can play and interact in a shared universe. Select the 'Connect to a server' option from the startup screen and type in the IP address/hostname of the server.<br><br>
+		<a name="quickref"></a>
+		<i>Controls quick reference</i><br>
+		<center>
+			<table border=0>
+				<tr>
+					<td>Cursors</td><td>Change speed and direction</td>
+				</tr>
+				<tr>
+					<td>Space</td><td>Fire phasers at target</td>
+				</tr>
+				<tr>
+					<td>z</td><td>Fire torpedoes at target</td>
+				</tr>
+				<tr>
+					<td>t</td><td>Target nearby ship</td>
+				</tr>
+				<tr>
+					<td>e</td><td>Target nearby enemy</td>
+				</tr>
+				<tr>
+					<td>p</td><td>Target nearby planet</td>
+				</tr>
+				<tr>
+					<td>-,=</td><td>Zoom the sensor display</td>
+				</tr>
+				<tr>
+					<td>Shift</td><td>Hold down for warp/impulse transition. Also reverses target cycling</td>
+				</tr>
+				<tr>
+					<td>q</td><td>Quit from within a game</td>
+				</tr>
+				<tr>
+					<td>/</td><td>Zoom the main display</td>
+				</tr>
+				<tr>
+					<td>F1</td><td>Your status</td>
+				</tr>
+				<tr>
+					<td>F2</td><td>Internal systems</td>
+				</tr>
+				<tr>
+					<td>F3</td><td>Scanner</td>
+				</tr>
+				<tr>
+					<td>F4</td><td>Hail target ship/planet</td>
+				</tr>
+				<tr>
+					<td>F5</td><td>Chat to player(s) (only useful in multiplayer)</td>
+				</tr>
+				<tr>
+					<td>F6</td><td>Player information</td>
+				</tr>
+				<tr>
+					<td>F7</td><td>Game miscellaenia</td>
+				</tr>
+			</table>
+		</center>	
+	</body>
+</html>

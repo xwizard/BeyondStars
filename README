@@ -1,0 +1,7 @@
+Star Voyager v0.4.4
+(c) Richard Thrippleton
+E-mail: ret28@cam.ac.uk
+
+	Star Voyager is a Frontier/Elite class game in a more arcade style 2D environment, themed to the 'Star Trek' universe. It utilises the SDL library for portability, hence it should definitely run on all Linux platforms, and hopefully all *nixes supported by SDL. Windows and MacOS support is theoretically possible.
+	Please feel free to e-mail me regarding this game for help, praise or constructive criticism. I would also be quite grateful for anyone who could maintain game binaries in RPM and Debian package format, for any architecture. A Windows binary maintainer would also be very welcome.
+	Game controls are documented in the MANUAL file.

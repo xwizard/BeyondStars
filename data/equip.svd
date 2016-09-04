@@ -1,0 +1,323 @@
+SV0040
+@Equipment0
+Name = Light phaser bank
+Type = 1
+Mass = 5
+Colour = 7
+Sound = 28
+Power = 80
+CycleTime = 8
+Range = 15
+Tracking = 80
+Coverage = 100
+Cost = 50
+
+@Equipment1
+Name = Standard phaser bank
+Type = 1
+Mass = 20
+Colour = 2
+Sound = 16
+Power = 160
+CycleTime = 20
+Range = 20
+Tracking = 80
+Coverage = 90
+Cost = 150
+
+@Equipment2
+Name = Photon torpedo launcher
+Type = 2
+Mass = 20
+Sprite = 22
+Sound = 18
+Power = 1600
+CycleTime = 100
+Capacity = 20
+Range = 70
+Tracking = 6
+Coverage = 15
+Cost = 350
+
+@Equipment3
+Name = Micro-torpedo launcher
+Type = 2
+Mass = 5 
+Sprite = 23
+Sound = 23
+Power = 1000
+CycleTime = 90
+Capacity = 10
+Range = 70
+Tracking = 3
+Coverage = 15
+Cost = 300
+
+@Equipment4
+Name = Disruptor
+Type = 1
+Mass = 15
+Sprite = 25
+Sound = 19
+Power = 160
+CycleTime = 8
+Range = 40
+Tracking = 40
+Coverage = 50
+Cost = 130
+
+@Equipment5
+Name = Heavy phaser bank
+Type = 1
+Mass = 25
+Sprite = 30
+Sound = 17
+Power = 200
+CycleTime = 5
+Range = 30
+Tracking = 30
+Coverage = 50
+Cost = 700
+
+@Equipment6
+Name = Quantum-torpedo launcher
+Type = 2
+Mass = 20
+Sprite = 31
+Sound = 20 
+Power = 2800
+CycleTime = 80
+Capacity = 20
+Range = 50
+Tracking = 3
+Coverage = 10 
+Cost = 550
+
+@Equipment7
+Name = Pulse disruptor
+Type = 1
+Mass = 1000
+Sprite = 36
+Sound = 27
+Power = 1100
+CycleTime = 12
+Capacity = 0
+Range = 30
+Tracking = 40
+Coverage = 45
+Cost = 12000
+
+@Equipment8
+Name = Standard transporter
+Type = 3
+Mass = 10
+Sound = 31
+Power = 1000
+CycleTime = 140
+Range = 1000
+Cost = 500
+
+@Equipment9
+Name = High-load transporter
+Type = 3
+Mass = 25
+Sound = 32
+Power = 3000
+CycleTime = 40
+Range = 600
+Cost = 2000
+
+@Equipment10
+Name = Light transporter
+Type = 3
+Mass = 5
+Sound = 30
+Power = 200
+CycleTime = 250
+Range = 400
+Cost = 200
+
+@Equipment11
+Name = Polaron Phaser
+Type = 1
+Mass = 20
+Colour = 6
+Sound = 29
+Power = 150
+CycleTime = 16
+Range = 20
+Tracking = 70
+Coverage = 90
+Cost = 220
+
+@Equipment12
+Name = Klingon Cloaking Device
+Type = 4
+Mass = 40
+Sound = 33
+Power = 6
+Capacity = 100
+Cost = 2500
+
+@Equipment13
+Name = Romulan Cloaking Device
+Type = 4
+Mass = 20
+Sound = 33
+Power = 4
+Capacity = 40
+Cost = 4500
+
+@Equipment14
+Name = Heavy Disrupter
+Type = 1
+Mass = 80
+Colour = 3
+Sound = 29
+Power = 150
+CycleTime = 10
+Range = 18
+Tracking = 80
+Coverage = 90
+Cost = 400
+
+@Equipment15
+Name = Type I power plant
+Type = 5
+Mass = 5
+Power = 60
+Capacity = 2000
+Cost = 800
+
+@Equipment16
+Name = Type I shield generator
+Type = 6
+Mass = 5
+Power = 3
+Capacity = 1000
+Sprite = 18
+Cost = 300
+
+@Equipment17
+Name = Standard sensor suite
+Type = 7
+Mass = 2
+Range = 10000
+Cost = 250
+
+@Equipment18
+Name = Standard antimatter pod
+Type = 8
+Mass = 2
+Capacity = 160000
+Cost = 100
+
+@Equipment19
+Name = Starfleet standard warp core
+Type = 5
+Mass = 250
+Power = 160
+Capacity = 10000
+Cost = 700
+
+@Equipment20
+Name = Integrated type I deflector system
+Type = 6
+Mass = 50
+Power = 10
+Sprite = 18
+Capacity = 4000
+Cost = 400
+
+@Equipment21
+Name = Large scale antimatter bank
+Type = 8
+Mass = 400
+Capacity = 10000000
+Cost = 600
+
+@Equipment22
+Name = Enhanced sensor suite
+Type = 7
+Mass = 40
+Range = 20000
+Cost = 400
+
+@Equipment23
+Name = Type II power plant
+Type = 5
+Mass = 5
+Power = 80
+Capacity = 4000
+Cost = 1100
+
+@Equipment24
+Name = Small scale antimatter bank
+Type = 8
+Mass = 50
+Capacity = 1000000
+Cost = 400
+
+@Equipment25
+Name = IKF Type I shield system
+Type = 6
+Mass = 40
+Power = 8
+Capacity = 2000
+Cost = 1000
+
+@Equipment26
+Name = IKF Type II shield system
+Type = 6
+Mass = 100
+Power = 15
+Capacity = 5000
+Cost = 1500
+
+@Equipment27
+Name = Standard warp core
+Type = 5
+Mass = 300
+Power = 190
+Capacity = 7000
+Cost = 600
+
+@Equipment28
+Name = Integrated type II deflector system
+Type = 6
+Mass = 40
+Power = 15
+Sprite = 18
+Capacity = 2000
+Cost = 700
+
+@Equipment29
+Name = Collective Type I power core
+Type = 5
+Mass = 300
+Power = 1500
+Capacity = 10000
+Cost = 20000
+
+@Equipment30
+Name = Collective Type II power core
+Type = 5
+Mass = 2000
+Power = 4000
+Capacity = 30000
+Cost = 30000
+
+@Equipment31
+Name = Collective shield system
+Type = 6
+Mass = 150
+Power = 25
+Sprite = 42
+Capacity = 5000
+Cost = 25000
+
+@Equipment32
+Name = Collective fuel system
+Type = 8
+Mass = 1000
+Capacity = 1000000000

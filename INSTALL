@@ -1,0 +1,17 @@
+Star Voyager installation from source code
+
+Currently these instructions only apply to Unix like systems;
+Obtain and install the SDL and SDL_net packages (both base _and_ development)  from your distribution. If you would prefer to compile the SDL library from source, obtain it from http://www.libsdl.org, and make sure to install everything, the libraries, the include files and the sdl-config script.
+Once you have SDL installed, go into a shell and cd into the directory you downloaded sv-(version).tar.gz into;
+
+tar xzf sv-(version).tar.gz
+cd sv
+make
+su
+(type in your root password when prompted)
+make install
+exit
+sv
+
+And you're in!
+Any problems, please contact me, address is in the README file.

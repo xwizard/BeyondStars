@@ -1,0 +1,20 @@
+This file is merely a memory aid, and is not referenced by the executable
+
+0 - Beep 1
+1 - Beep 2
+2 - Red alert
+3 - Proximity alert
+4 - Comm
+16 - Standard phaser fire
+17 - Heavy phaser fire
+18 - Standard torpedo
+19 - Disruptor
+20 - Quantum torpedo
+21 - Destruction1
+22 - Destruction2
+23 - Micro-torpedo
+24 - Small bang
+25 - Medium bang
+26 - Big bang
+27 - Borg pulse cannon
+28 - Light phaser fire

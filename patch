@@ -1,0 +1,39 @@
+void camera::renderstars()
+{
+	short cx,cy; //Centering screen position
+	short astx,asty; //For holding star position on screen
+	graphic* warp; //Warp star sprite
+	
+	warp=NULL;
+	cx=interface::viewb.x+(interface::viewb.w/2);
+	cy=interface::viewb.y+(interface::viewb.h/2);
+	if(presence::vel.rad>=99)
+		warp=graphic::get(graphic::WARP);
+	for(short i=0;i<64;i++)
+	{
+		if(warp && strs[i].dep>10)
+			strs[i].dep=1;
+		astx=(short)(strs[i].loc.x+(cx-pov.x)/strs[i].dep);
+		asty=(short)(strs[i].loc.y+(cy-pov.y)/strs[i].dep);
+		if(astx<interface::viewb.x || astx>interface::viewb.x+interface::viewb.w || asty<interface::viewb.y || asty>interface::viewb.y+interface::viewb.h)
+		{
+			astx=interface::viewb.x+calc::rnd(interface::viewb.w);
+			asty=interface::viewb.y+calc::rnd(interface::viewb.h);
+
+			if(warp)
+				strs[i].dep=calc::rnd(40)+60;
+			else
+				strs[i].dep=calc::rnd(10)+1;
+
+			strs[i].loc.x=astx-(interface::viewb.x+interface::viewb.w/2-pov.x)/strs[i].dep;
+			strs[i].loc.y=asty-(interface::viewb.y+interface::viewb.h/2-pov.y)/strs[i].dep;
+		}
+		if(warp)
+			warp->draw(astx,asty,((presence::vel.ang+5)/10)%36,0,0,false);
+		else
+			if(strs[i].dep>5)
+				graphic::pix(astx,asty,graphic::GREY);
+			else
+				graphic::pix(astx,asty,graphic::WHITE);
+	}
+}

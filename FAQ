@@ -1,0 +1,28 @@
+Star Voyager FAQ
+
+Q - So author, who are you?
+A - Richard Thrippleton, a 19 year old student. Currently in the 2nd year of a Computer Science degree at Cambridge University(UK).
+
+Q - Will you accept patches from me?
+A - No, but I will link to them off your site if they're any good. The reason behind this is that I can't be responsible for code integrity if I take patches that I haven't written. Additionally, I feel it would be unfair to subject third party coders to my whims of licensing.
+
+Q - I've found a bug, what do I do?
+A - Well, I'm certainly expecting bugs. If it's a compile error, be very thorough in seeing if it's your mistake first, before contacting me. Then e-mail me with the bug report, plenty of detail please, especially what CPU and OS, quoting the error message verbatim. A debug trace to the exact point of crash would be even more welcome!
+
+Q - Surely there are already games like this for Linux, hence your efforts are redundant?
+A - There's XShipWars, which isn't really suited to single player adventures like Star Voyager. FreeTrek is dead. And yes XPilot is very cool, but it's an entirely different game!
+
+Q - Why no updates for ages?
+A - Likely because it's term time and I'm busy!
+
+Q - How to get a bigger window?
+A - Run sv with the '-x' switch from the command line
+
+Q - Do you consider the game to be nearly finished
+A - No
+
+Q - When are you going to create a './configure' script for the source?
+A - When I start writing non-portable code.
+
+Q - Have these questions really been Frequently Asked?
+A - Not all of them, no. It's a pre-emptive FAQ :)

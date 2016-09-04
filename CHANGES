@@ -1,0 +1,210 @@
+Version 0.4.4
+
+Total freeze bug (in network code; local as well as remote) fixed
+
+
+Version 0.4.3
+
+Savegame crash bug fixed
+Universe liveliness increased
+Potential horrendous lag problem fixed
+Multiplayer client smoothing improvement
+
+
+Version 0.4.2
+
+Server robustness improved
+New user based login and preservation system for server/savegames
+Main view can zoom out
+Fixed lag in inputting chat text
+Fixed input text scrolling
+More in-game chat options
+Limited reverse thrust
+More comprehensive server logging
+Enhanced torpedo physics
+Further optimised graphics
+Crash bug involving decloaking fixed
+Further anti-lag improvements for client/server
+More AI modifications
+Package namechange
+Sparc bus error crash fixed
+Potential cheating bug fixed
+
+
+Version 0.4.1
+
+Compilation bug on some systems fixed
+Buffer overflow in server fixed
+Miscellaneous AI behaviour fixes
+Better bandwidth utilisation in extreme circumstances
+Improved equipment handling
+Updated manual
+
+Version 0.4.0
+
+Non-US/English keyboard bug fixed
+Multiplayer protocol underwent complete re-write
+Joining a game now a lot faster
+Multiplayer synchronisation bugs entirely fixed
+Code now -Wall -Werror compliant
+C++ compilation bugs on some systems fixed
+Code cleaned up immensely
+Smaller universe
+Faster game data and savegame loading
+Beam weapons
+Standalone server
+Simple player 'whois' function in game
+
+Version 0.3.1
+
+Spasmodic text input fixed
+One game synchronisation bug (multiplayer) fixed
+Planetary marketplace feature restored
+Miscellaneous AI fixes
+
+
+Version 0.3.0
+
+Sophisticated multiplayer support; works well over a modem
+Adaptive client framerate
+Fixed colour bug on >16 bit displays
+Smaller savefiles
+Further graphical speed optimisations
+Improved targetting ergonomics
+In game help
+Some features (refueling and other purchases) removed temporarily
+Slicker interface
+
+
+Version 0.2.1
+
+More combat friendly viewing
+Damage 'juddering'
+Much improved speed on loading savegames
+Graphics routines greatly speeded up for non 8-bit displays
+Possible startup deadlock fixed
+Redesigned combat AI
+New targetting option
+Sound toggle
+More sound effects
+'make install' supported and required
+
+
+Version 0.2.0
+
+SOUND EFFECTS!
+Potential buffer overflow in database functions fixed
+Fancier sensor display
+More effective AI cloaking technique
+See README to increase window size
+
+
+Version 0.1.4-b
+
+FPE bug hopefully fixed
+
+
+Version 0.1.4
+
+Equipment upgrades available
+Phaser targetting problem solved; see README
+_Savegames_ implemented
+Battle damage (and repairs)
+Subtle tweaks to make battle more fun
+Dead ship resurrection bug fixed
+
+
+Version 0.1.3
+
+Improved graphics for planets and some ships
+Star systems better defended
+Cloaking not quite so effective
+Elite style 'mass lock' prevents warping out near planets
+Rolling demo at start
+Beginnings of an economy and actually useful planets
+Allies won't take so well to being fired on
+Improved phaser targetting
+Much better teamwork from fleets
+Piracy is now an option, once you disable a vessel
+More ergonomic keys. See the readme for details
+Slight starscape improvements
+
+
+Version 0.1.2
+
+Now have x86 testers, so expect much fewer crash bugs
+Fixed direction-finder jittering bug
+Improved combat AI (less predictable)
+Denser population
+More polished game initialisation
+More sensible shooting angles (see Bird of prey)
+Slightly more forgiving torpedoes
+Themed communications
+Fleet commands
+Klingons are _allies_ now, don't forget!
+Slightly better planet names
+Some prettied up graphics
+Much better background stars
+
+
+Version 0.1.1
+
+Wrong distribution of inhabited planets. Fixed.
+More behavioural patterns; commuting, invasions, fleets, cowardice
+Shield control (they take up energy)
+Maneuvering takes up power
+Smaller universe for faster travel
+Typesetting bug fixed
+Cloaking
+Finite fuel
+_Potential_ division by 0 error trapped
+
+
+Version 0.1.0
+
+Even better explosions!
+Code overhauled for neatness (BIG job)
+Auto-navigation
+More starships and weapons
+MAJOR division by 0 error trapped (thanks Idan!)
+...though some may remain
+Quicker graphics and font algorithms
+More appropriate viewer orientation
+More sophisticated scanner display
+Key repeat fixed
+Framerate monitor; should get about 24
+A whole universe out there....
+Easily variable screen layout (see layout.h)
+
+
+Version 0.0.5
+
+Improved interface 
+Datafiles much more intuitive
+Planets
+Better damage algorithms
+Warp speed
+Improved enemy movement
+Scanners
+Better explosions
+
+
+Version 0.0.4
+
+I do believe that this version will compile on BeOS; all credit to Eugenia at BeNews. Photon torpedoes are now available and rather good; 'z' will ripple them off. I've redone some of the graphics; the ships were looking rather shabby previously. Also the resolution has gone back down to 600x400 for speed considerations. Code has been tidied up a little, subdividing mammoth functions down to smaller sub-functions. Also using my own optimised square root function. AI vastly improved with respect to movement. Please note that the runabouts that hide outside of your phaser arcs and blatter you from above are a _feature_ and not a bug!
+
+
+Version 0.0.3
+
+A bit of combat, finally! 'Space' will fire your weapons off. Enemy AI and weapons targetting is now pretty mean. Prepare to get walloped pretty good. I've made some rather good looking detonations as well. A sensor display, and also some indicator bars. Red for shields, Green for power levels. 't' should flip the target, though I think that's a little buggy. Plus, the display has been expanded to 800x600. If you get a long stream of "-"s on the console, this means you have frame rate underrun.
+
+
+Version 0.0.2
+
+A lot of tidier code, and user transparent improvements. This includes functions that save out and load objects from files, rather than the tedious variable defines I had to do before. Much improved auto-pilot. Rather nasty memory overrun that I noticed when loading more than one sprite; look in the 0.0.1 'ship' definition and see that I expanded the rotations from 18 to 36 but left something behind...... 
+Some rudimentary weapons fire that doesn't do much. Looks pretty though.
+
+
+Version 0.0.1
+
+Just establishes a basic 'ship' object only environment, demonstrating graphics, user control and a slightly shabby autopilot. Not really playable in any fashion. You can use the cursors.

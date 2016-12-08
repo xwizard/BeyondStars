@@ -10,6 +10,7 @@
 #include <string.h>
 #include "error.h"
 #include "sound.h"
+#include "config.h"
 
 void sound::init()
 {

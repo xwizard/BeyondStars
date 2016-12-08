@@ -14,6 +14,7 @@
 #include "error.h"
 #include "interface.h"
 #include "graphic.h"
+#include "config.h"
 
 void graphic::init()
 {

@@ -30,6 +30,7 @@
 #include "game.h"
 #include "player.h"
 #include "os.h"
+#include "config.h"
 
 void splashscreen(); //Splashscreen function
 

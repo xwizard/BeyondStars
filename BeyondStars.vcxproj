@@ -63,6 +63,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\wizard\Documents\Projekty\SDL_net-1.2.8\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\wizard\Documents\Projekty\SDL_net-1.2.8\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>true</LinkIncremental>
@@ -80,6 +82,8 @@
       <TargetMachine>MachineX86</TargetMachine>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>C:\Users\wizard\Downloads\SDL_net-devel-1.2.8-VC\SDL_net-1.2.8\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL_net.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -137,6 +141,7 @@
     <ClInclude Include="graphic.h" />
     <ClInclude Include="interface.h" />
     <ClInclude Include="mission.h" />
+    <ClInclude Include="config.h" />
     <ClInclude Include="os.h" />
     <ClInclude Include="planet.h" />
     <ClInclude Include="player.h" />

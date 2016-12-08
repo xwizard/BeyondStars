@@ -93,11 +93,11 @@ int main(int argc,char* argv[])
 		}
 
 		sprintf(path,"%s/ships.svd",DATADIR);
-		database::openreader(fopen(path,"r"));
+		database::openreader(fopen(path,"rb"));
 		sprintf(path,"%s/equip.svd",DATADIR);
-		database::openreader(fopen(path,"r"));
+		database::openreader(fopen(path,"rb"));
 		sprintf(path,"%s/alliances.svd",DATADIR);
-		database::openreader(fopen(path,"r"));
+		database::openreader(fopen(path,"rb"));
 
 		equip::loadlib();
 		ship::loadlib();

@@ -174,5 +174,14 @@
   <ItemGroup>
     <None Include="manual.html" />
     <None Include="packages.config" />
+    <None Include="data\alliances.svd">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\equip.svd">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\ships.svd">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

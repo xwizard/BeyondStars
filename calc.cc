@@ -28,7 +28,12 @@ long calc::rnd(long max)
 {
 	if(max==0)
 		return 0;
+#ifdef POSIX
 	return (rand()%max);
+#else
+  return ((rand() << 15 | rand())%max);
+#endif
+
 }
 
 void calc::getspeed(long spd,char* put)

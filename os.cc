@@ -16,8 +16,8 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <dirent.h>
-#include <time.h>
 #endif
+#include <time.h>
 #include "error.h"
 #include "server.h"
 #include "os.h"
@@ -87,11 +87,7 @@ char* os::gettime()
 
 long os::getseed()
 {
-	#ifdef POSIX
 	return (long)time(NULL);
-	#else
-	return 12345;
-	#endif
 }
 
 char os::tbuf[256];

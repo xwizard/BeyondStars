@@ -62,7 +62,7 @@ int main(int argc,char* argv[])
 		database::init();
 
 		hles=false;
-		bigs=false;
+		bigs=true;
 		load=false;
 		full=false;
 
@@ -78,7 +78,7 @@ int main(int argc,char* argv[])
 					break;
 
 					case 'x':
-					bigs=true;
+					bigs=false;
 					break;
 
 					case 's':

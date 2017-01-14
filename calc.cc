@@ -21,19 +21,14 @@ void calc::init()
 	{
 		wrp[i]=i*i*i*100;
 	}
-	srand(os::getseed());
 }
 
 long calc::rnd(long max)
 {
 	if(max==0)
 		return 0;
-#ifdef POSIX
-	return (rand()%max);
-#else
-  return ((rand() << 15 | rand())%max);
-#endif
-
+  std::uniform_int_distribution<long> distribution(0, max);
+  return distribution(randomGenerator);
 }
 
 void calc::getspeed(long spd,char* put)
@@ -74,3 +69,4 @@ void calc::obscure(char* str)
 
 long calc::wrp[10];
 char calc::spds[33];
+std::mt19937 calc::randomGenerator(os::getseed());
